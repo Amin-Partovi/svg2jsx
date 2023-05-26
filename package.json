@@ -4,13 +4,13 @@
   "description": "create optimized JSX files from your svgs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize-svg": "node ./index"
   },
   "author": "Amin Partovi",
   "license": "ISC",
   "dependencies": {
     "@svgr/cli": "^8.0.1",
-    "svgo": "^3.0.2",
     "svgson": "^5.2.1"
   }
 }
